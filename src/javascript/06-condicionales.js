@@ -1,7 +1,7 @@
 
 
 //definir variables
-let edad = 30;
+let edad = 18;
 let limiteEdad = 18;
 
 console.log("------------------------------")
@@ -29,4 +29,28 @@ if(edad >= limiteEdad){
     console.log("no es mayor de edad");   
 }
 console.log("-------------------------------");
+
+if(edad >= limiteEdad && (edad <= (limiteEdad + 82))){
+    console.log("mayor de edad y menor de 100");
+    //agregamos el operador &&(y) y el distinto !=
+
+}else if (edad <= limiteEdad  && edad != 2){
+    console.log("esta persona es menor de edad y no tiene dos años");
+}else{
+    console.log("es un puberto");
+}
+
+console.log("-------------------------------");
+
+//if con condicional or
+
+if(edad == 1 || (edad < limiteEdad)){
+    console.log("no puede comprar alcohol");
+}else{
+    console.log("si puede comprar alcohol");
+    
+}
+
+console.log("-------------------------------");
+
 
