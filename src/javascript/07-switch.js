@@ -61,4 +61,35 @@ switch(dia){
 }
 console.log(imprime2);
     
+console.log("-----------------------")
 
+//definimos una variable
+var edad = 13;
+
+//definimos las variables
+
+var edad = 13;
+var esNino = edad < 13;
+var esAdolescente = edad >= 13 && edad < 18;
+var esAdulto = edad >= 18 && edad < 65;
+var esAdultoMayor = edad >= 65;
+console.log(typeof (esNino));
+switch (true) {
+    case esNino:
+        parametros = "Eres un niño";
+        break;
+    case esAdolescente:
+        parametros = "Eres un adolescente";
+        break;
+    case esAdulto:
+        parametros = "Eres un adulto";
+        break;
+    case esAdultoMayor:
+        parametros = "Eres un adulto mayor";
+        break;
+
+    default:
+        parametros = "Edad no valida";
+        break;
+}
+console.log(parametros);
